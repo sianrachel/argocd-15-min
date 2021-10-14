@@ -17,7 +17,7 @@ spec:
           repository: sianrachel/devops-toolkit
           tag: latest
         ingress:
-          host: devops-paradox.$INGRESS_HOST.nip.io
+          host: devops-paradox.$INGRESS_HOST.xip.io
       version: v3
   destination:
     namespace: production
