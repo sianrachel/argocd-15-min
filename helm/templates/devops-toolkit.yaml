@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: production
+  project: production1
   source:
     path: helm
     repoURL: https://github.com/vfarcic/devops-toolkit.git
@@ -18,7 +18,7 @@ spec:
           host: devops-toolkit.$INGRESS_HOST.xip.io
       version: v3
   destination:
-    namespace: production
+    namespace: production1
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
