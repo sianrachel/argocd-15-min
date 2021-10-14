@@ -13,7 +13,8 @@ spec:
     targetRevision: HEAD
     helm:
      values: |
-          tag: latest
+        image:
+          tag: 2.9.17
         ingress:
           host: devops-toolkit.$INGRESS_HOST.xip.io
       version: v3

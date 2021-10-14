@@ -13,6 +13,7 @@ spec:
     targetRevision: HEAD
     helm:
       values: |
+          image: 2.9.17
           tag: latest
         ingress:
           host: devops-paradox.192.168.64.14.xip.io
