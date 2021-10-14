@@ -12,7 +12,7 @@ spec:
     repoURL: https://github.com/sianrachel/argo-15-min.git
     targetRevision: HEAD
   destination:
-    namespace: production1
+    namespace: production11
     server: https://kubernetes.default.svc
   syncPolicy:
     automated:
